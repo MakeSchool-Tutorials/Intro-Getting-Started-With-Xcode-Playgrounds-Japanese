@@ -4,7 +4,7 @@ slug: installing-xcode
 ---
 
 > [info]
-> Xcode 8 and Swift 3 was released on on September 13th, 2016. Please make sure to update as soon as possible. Follow the instructions below for checking your version and updating if necessary. Switching to Xcode 8 and Swift 3 will allow you to have the best experience in this course.
+> Xcode 8 and Swift 3 was released on September 13th, 2016. Please make sure to update as soon as possible. Follow the instructions below for checking your version and updating if necessary. Switching to Xcode 8 and Swift 3 will allow you to have the best experience in this course.
 
 This tutorial will guide you through installing Xcode and get you started on your iOS developer journey. You'll be learning the newest version of Swift, _Swift 3_ throughout your journey.
 
