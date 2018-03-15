@@ -1,23 +1,20 @@
 ---
-title: Get Started with Xcode!
+title: Xcodeを始めよう!
 slug: installing-xcode
 ---
 
 > [info]
-> Xcode 8 and Swift 3 was released on September 13th, 2016. Please make sure to update as soon as possible. Follow the instructions below for checking your version and updating if necessary. Switching to Xcode 8 and Swift 3 will allow you to have the best experience in this course.
+> Xcode 9 と Swift 4が、2017年9月にリリースされました。下の方法に合わせて、ソフトウェアがアップデートされているかどうか確認しましょう。
 
-This tutorial will guide you through installing Xcode and get you started on your iOS developer journey. You'll be learning the newest version of Swift, _Swift 3_ throughout your journey.
+Xcodeをインストールして、iOS開発の旅を始めましょう！ここでは _Swift 4_ を学んでいきます。
 
-You should be on OS X El Capitan or macOS Sierra (10.11.6+ or 10.12.1+) and have Xcode 8.0+. If you are *absolutely* positive you have these, go ahead on to the next page.
+macOS Sierra以上(10.12.6以降)、Xcode 9.0以上が必要です。
 
-Let's get our tools set up.
+# OS Xをチェック
 
-# Checking OS X
+🍎ボタンをクリックして、`About this Mac（このMacについて)`をクリックします。`macOS Sierra`、`Version 10.12.6`以上であるか確認しましょう。もしアップデートが必要な場合は、[ここ](https://itunes.apple.com/us/app/macos-high-sierra/id1246284741?mt=12&l=en-us&ls=1)をクリックしてアップデートしましょう。
 
-Press the 🍎 button on the top left of your Mac screen and click `About this Mac`. It should say `OS X El Capitan` or `macOS Sierra` and `Version 10.11.6` or `Version 10.12.1` (or higher). If it does not say `OS X El Capitan` or `macOS Sierra`, go [here](https://itunes.apple.com/us/app/macos-sierra/id1127487414?mt=12&ls=1) and install macOS Sierra.
 
-If it does not say `Version 10.11.6` (or higher) but _does_ say `OS X El Capitan`, press the 🍎 button on the top left of your Mac screen and click `App Store`. Install the updates!
+# Xcodeをインストール
 
-# Installing Xcode
-
-Go to the Mac App Store to download [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) (our integrated development environment or IDE). Make sure you are using the most up to date version from the App Store (not developer preview versions). Drag Xcode onto your dock from your Applications folder so that you can easily access it.
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)をダウンロードします。デペロッパーバージョンをインストールしないように注意しましょう。

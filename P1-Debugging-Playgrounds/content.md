@@ -1,113 +1,113 @@
 ---
-title: Debugging Playgrounds
+title: Playgroundsで遊ぼう
 slug: debugging-playgrounds
 ---
 
-Before you get started, there are a few things you should know about _Swift Playgrounds_.
+_Swift Playgrounds_ について知りましょう。
 
-## What are Playgrounds?
+## Playgroundsについて
 
-_Playgrounds_ are interactive coding environments that can contain instructions. The code you write gets run every time you make a change and visual output is displayed on the right. This makes it a great way to learn how to code!
+_Playgrounds_　とはインタラクティブなコーディング環境です。書いたコードがすぐにページの右側に反映されます。これで簡単にプログラミングが学べるのです！
 
-# Playground interface
+
+# Playgroundsのインターフェース
 
 ![Playground interface](./playground_overview.png)
 
-There are three main areas you need to worry about in the intro track playgrounds: navigation, instructional & coding area, visualization.
+今は3つのメインエリアだけ覚えておけば良いでしょう: ナビゲーションとインストラクション・プログラミングエリア、ビジュアライゼーションです。
 
-## Navigation
 
-You can use this are to navigate directly to another page. The instructional and coding area also has next and previous page buttons at the bottom. If you do not see the navigation area, it can be opened with the button marked `2` in the above screenshot.
+## ナビゲーション
 
-## Instructional & coding area
+このエリアは他のページに進むのに使います。インストラクション・プログラミングエリアにも"Next"や"Previous"ボタンがあるのでこちらも使えます。もしこのナビゲーションエリアが見えなかったら、上のスクリーンショットの`2`のボタンを押すと表示されるはずです。
 
-This is where you'll be doing most of your work. This area allows for nicely formatted instructions and areas to code! Any areas that have line numbers next to them can be used for coding.
+## インストラクション・コーディングエリア
 
-## Visualization
+ここでコードを書いていきます。左側に小さな番号がついている列にはコードを書き込むことができます。
 
-A lot of the playground exercises will have live visualizations associated with them! Press the button that is marked with `1` in the screenshot to open this area. You will be able to change these visualizations by following the instructions and coding in the instructional & coding area.
+## ビジュアライゼーション
 
-# Setting up Xcode
+多くのPlaygroundは、インタラクティブに動くビジュアルと結びついています！スクリーンショットの`1`のボタンを押してビジュアルエリアを開きましょう。
 
-There are two things we need to do to make our Xcode and Playground experience better. You should do this as soon as you start your first playground, it only needs to be done once!
+# Xcodeの設定
 
-> [action]
-> ## Turning on line numbers
-1. Go to `Xcode > Preferences` in the menu bar. ![Preferences](./open_preferences.png)
-1. Click `Text Editing` in the popup. Check the box next to _Line Numbers_. ![Line numbers](./line_numbers.png)
+XcodeとPlaygroundを使いやすくするために、２つの設定を変更します。
+
+> [アクション]
+> ## 列番号を表示させる
+1. メニューバーから、`Xcode > Preferences`を選択し、開きます。 ![Preferences](./open_preferences.png)
+1. `Text Editing`をクリックします。_Line Numbers_ の横のボックスにチェックマークを入れます。![Line numbers](./line_numbers.png)
 >
-> ## Creating a keyboard shortcut
-1. Click `Key Bindings` (it's next to `Text Editing`).
-1. Enter `execute` in the search bar.
-1. Double-click the white space next to `Execute Playgrounds`.
-1. Press and hold the `option` key then press `r`.
-1. Click in the whitespace below.
-1. Verify the shortcut was added by watching this gif. The shortcut you added should match the gif.
+> ## キーボードショートカットを設定する
+1. `Text Editing`の横の`Key Bindings`をクリックします。
+1. 検索バーで`execute`と入力します。
+1. `Execute Playgrounds`の隣の白いスペースをダブルクリックします。
+1. `option`と`r`を同時に押します。
+1. 下の白いスペースをクリックします。
+1. 下のgifアニメを見ながら、ショートカットの追加が正しく出来たか確認しましょう。
 >
 ![Add shortcut](./add_shortcut.gif)
 
-# Running code in Playgrounds
+# Playgroundsでコードを実行する
 
-By default, Playgrounds will run the code every-time you stop typing. The visualization will restart and be updated with your new code!
+Playgroundsは、コードを書き終えると自動的に実行されるようになっています。
 
-## Re-running your code manually
+## マニュアルでコードを実行する
 
-If this does not seem to be working, you can re-run it by toggling the play/stop button at the bottom-left of your instructional & coding area. ![Toggle play](./toggle_play.gif)
+もしコードが実行されなかったら、手動でも実行することができます。下の左側にある小さなプレイボタンを押すと実行されます。 ![Toggle play](./toggle_play.gif)
 
-## Slower computers
+## 重いコンピュータを使っていたら
 
-The auto-run feature might not work well on slower computers. You can turn it off by clicking and holding on the play/stop button then selecting `Manually Run`. ![Turn to manual](./change_to_manual.gif)
+動きが遅いコンピュータを使っているときは、自動的に実行する設定を使わない方が良い時があります。その時は、プレイボタンを長押しして、`Manually Run`をクリックして自動実行の設定をオフにしましょう。 ![Turn to manual](./change_to_manual.gif)
 
-Now you can run your code when you are ready! By following the steps above or holding the `option` key and pressing `r` (this will only work if you setup the keyboard shortcut above).
+`option`+`r`を押すか、プレイボタンを押すことでコードを実行できます。
 
-# My code is not working!
+# 上手くコードが動かない！
 
-Playgrounds use a few different symbols to notify you when you have inputed code that will not work. Don't worry too much about the code in these examples, focus on the symbols presented.
+Playgroundsはいくつかのサインを持っています。それぞれのサインによって、どうしてコードが動かないのかが分かります。これからいくつか例を紹介しますが、コードの内容自体はそれほど気にしなくても大丈夫です。
 
-It's good to understand what Xcode is trying to tell. Sometimes the message presented will be enough to help you fix it on your own. Other times it will be cryptic and you'll need to ask another student or instructor for help -- it is okay to ask for help!
+Xcodeが何を伝えようとしているのかを理解するのは重要です。それが理解できれば、問題が起きても自分で解決しやすくなります。もちろん、周りの人に聞いても大丈夫ですよ！
 
-## Error
+## エラー
 
 ![Error](./error.gif)
 
-Errors are a red octagon with a `!` inside. Click them to read the message. You _must_ fix the error for your code to finish running!
+エラーは`!`が中に入っている赤い八角形のマークです。そのマークをクリックすると詳細のメッセージが表示されます。このエラーは解決しないとコードが実行できません！
 
-## Error with suggestion
+## 解決法付きのエラー
 
 ![Error with suggestion](./error_with_suggestion.gif)
 
-Errors with suggestions have a white circle inside instead of an `!`. When you double-click them, they pop up a `Fix-it` suggestion. You can double-click the suggestion and Xcode will try to automatically fix the problem. You _must_ fix the error for your code to finish running!
+解決法がついているエラーは、`!`の代わりに、白い丸印が中に入っているマークです。このマークをダブルクリックすると、`Fix-it`という解決方法が表示されます。この解決方法をダブルクリックすると、Xcodeが自動的にエラーを直してくれます。このエラーも直さないとコードが実行できません！
 
-## Warning
+## 警告
 
 ![Warning](./warning.gif)
 
-Warnings do not stop your code from running. They are represented by a yellow triangle. Just like errors, they might have `Fix-it` suggestions.
+警告は、解決しなくてもコードを実行できます。黄色の三角のマークのものが警告です。たまに、`Fix-it`という解決方法が表示されることもあります。
 
-Another thing to note in this example is some warnings and errors will have multiple messages associated with them. See how we click the grey `2` in the example to view both messages?
+警告やエラーは、たまに複数のメッセージを含んでいることがあります。例の動画の中で、グレーの`2`マークをクリックして、そのメッセージを見ていますね。
 
-# The visualization is not working
+# ビジュアライゼーションが動かない
 
-Playgrounds can occasionally misbehave. This usually happens when you switch pages.
+Playgroundsはたまにうまく動かない時があります。ページを切り替えるときに良く起こります。
 
-## Is it open?
+## ビジュアライゼーションを開いていますか？
 
-Make sure to open it! Click the "interlocked circle" button in the top-right to open the visualization pane.
+まずはビジュアル画面を開いているかを確認しましょう！
 
 ![Open visualization](./open_visualization.png)
 
-## It's open but nothing is happening...
+## 開いているのに動かない...
 
-Make sure the visualization area is set to timeline. You should see two interlocked circles (timeline) at the top of it, not two rectangles (manual).
+ビジュアルエリアが"Timeline"にセットされているか確認しましょう。下のgif動画のように"Manual"ではなく"Timeline"を開いているかをチェックします。
 
 ![Toggle timeline](./toggle_timeline.gif)
 
-## Still not working
+## それでも動かない...
 
-Check your code, are there any errors? These must be fixed before the visualization will work!
+コードにエラーが発生していませんか？エラーがあるとビジュアライゼーションは動きません！
 
-## I'm still having issues all the time!
+## それでも動かない!!!
 
-You should see the earlier section titled _Slower computers_ and change your playgrounds to run manually. **You'll have to do this for every playground!** Use the play/stop buttons or your keyboard shortcut to run it when you are ready.
-
-If you continue to have issues, talk with an instructor -- they might have some tips!
+_重いコンピューターを使っていたら_ のセクションを見て、手動でコードを実行する設定に書き換えましょう。全てのPlaygrounファイルで設定を変える必要があります。
